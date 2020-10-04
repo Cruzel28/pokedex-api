@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+
+html,
+body,
+#root {
+  height: 100vh;
+  width: 100vw;
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  background-color: cornflowerblue; 
+  color: navajowhite;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+
+/*start title css*/
+.title-container {
+  display: flex;
+  justify-content: center;
+  padding: 1.5rem 0;
+}
+/*end title css*/
+
+/*start content css*/
+.content-container{
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin: 1rem 1rem;
+  border: 1px solid bisque;
+  padding: 1rem 0;
+}
+
+.content{
+  flex: 1;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+ 
+}
+/*end content css*/
